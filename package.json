@@ -2,6 +2,10 @@
     "name": "node-module-learning",
     "version": "0.0.0",
     "description": "learning how to build a node module",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/andreavaghi/node-module-test.git"
+    },
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +14,8 @@
         "learning"
     ],
     "author": "Andrea Vaghi",
-    "license": "ISC"
+    "license": "MIT",
+    "dependencies": {
+        "underscore": "^1.6.0"
+    }
 }
